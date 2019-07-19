@@ -1,0 +1,109 @@
+{
+  "editor.fontSize": 16,
+  // tab 大小为2个空格
+  "editor.tabSize": 2,
+  // 100 列后换行
+  "editor.wordWrapColumn": 200,
+  // 保存时格式化
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  // 使用 ctrl 或 command 多选
+  "editor.multiCursorModifier": "alt",
+  "editor.renderIndentGuides": false,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.mouseWheelZoom": true,
+  "editor.lineHeight": 23,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.eslintIntegration": true,
+  "eslint.alwaysShowStatus": true,
+  // 开启 vscode 文件路径导航
+  "breadcrumbs.enabled": true,
+  // prettier 设置语句末尾不加分号
+  "prettier.semi": true,
+  // prettier 设置强制单引号
+  "prettier.singleQuote": true,
+  // 显示 markdown 中英文切换时产生的特殊字符
+  "editor.renderControlCharacters": true,
+  // 设置 eslint 保存时自动修复
+  "eslint.autoFixOnSave": true,
+  // eslint 检测文件类型
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "minapp-vscode.disableAutoConfig": true,
+  "git.autofetch": true,
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "fileheader.cursorMode": {
+    "name": "",
+    "test": "",
+    "msg": "",
+    "param": "",
+    "return": ""
+  },
+  "fileheader.customMade": {
+    "Description": "",
+    "version": "0.01",
+    "Company": "GSUnis",
+    "Author": "Horyan",
+    "Date": "Do not edit",
+    "LastEditors": "Horyan",
+    "LastEditTime": "Do not edit"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    "*.cjson": "jsonc",
+    "*.wxs": "javascript"
+  },
+  "window.zoomLevel": 1,
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#7f1086",
+    "titleBar.inactiveBackground": "#7f1086",
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#fff000cc"
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  // 格式化stylus, 需安装Manta's Stylus Supremacy插件
+  "stylusSupremacy.insertColons": false, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "[less]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  } // 两个选择器中是否换行
+}
